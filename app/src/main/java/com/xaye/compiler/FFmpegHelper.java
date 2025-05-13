@@ -12,4 +12,6 @@ public class FFmpegHelper {
     }
 
     public static native String getFFmpegVersion();
+
+    public static native String getMediaInfo(String filepath);
 }
